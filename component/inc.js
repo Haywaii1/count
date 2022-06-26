@@ -12,11 +12,10 @@ let resetCount = () => setCounter(0);
 return (
     <div>
         <p>counter is : {counter}</p>
-        <button onClick={incrementCount}>+</button>
-        <button onClick={decrementCount}>-</button>
+        <button onClick={incrementCount}>Increase Button</button>
+        <button onClick={decrementCount}>Decrease Button</button>
         <button onClick={resetCount}>Reset</button> 
         </div>
-       
 );
 }
 
